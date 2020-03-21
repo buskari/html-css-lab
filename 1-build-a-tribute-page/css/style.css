@@ -3,7 +3,6 @@ body {
 }
 
 .content {
-    /* position: relative; */
     width: 100%;
     background-color: #e4e4e4;
     border-radius: 5px;
@@ -38,7 +37,7 @@ h1 {
 }
 
 .time-line {
-    max-width: 550px;
+    max-width: 570px;
     margin: 30px auto;
     text-align: left;
 }
@@ -57,19 +56,20 @@ h1 {
 .time-line ul li {
     margin: 30px 0;
     font-weight: lighter;
-    list-style-type: circle;
+    line-height: 1.6em;
 }
 
-.time-line blockquote {
+.content .time-line blockquote {
+    margin: 55px 0 50px 25px ;
+    line-height: 1.6em;
     font-weight: lighter;
-    margin-top: 100px auto;
+    font-style: italic;
 }
 
 .content h3 {
-    display: inline;
-    margin: 50px auto;
-    padding: 5px 0;
-    background-color: lightgray;
+    max-width: 700px;
+    margin: 0 auto;
+    padding-bottom: 30px;
     font-weight: bolder;
     font-size: 18px;
 }
