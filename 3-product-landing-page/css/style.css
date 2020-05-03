@@ -75,6 +75,11 @@ nav ul li a{
     text-align: center;
 }
 
+#features i {
+    color: darkorange;
+    display: none;
+}
+
 #features h2 {
     font-weight: bold;
     margin: 0;
@@ -161,6 +166,22 @@ footer .copyright {
 }
 
 /* >550px styles */
+
+@media screen and (min-width: 550px) {
+
+    #features i {
+        float: left;
+        display: block;
+        width: 50px;
+        margin: 0 20px 0 20px;
+    }
+
+    #features h2, p{
+        width: 490px;
+        text-align: left;
+    }
+
+}
 
 /* >600px styles */
 
