@@ -197,19 +197,52 @@ footer .copyright {
 }
 
 /* >600px styles */
-.logo img {
-    float: left;
+@media screen and (min-width: 600px) {
+    .logo img {
+        float: left;
+    }
+    
+    header nav {
+        margin-top: 15px;
+    }
+    
+    .content {
+        margin-top: 180px;
+    }
 }
-
-header nav {
-    margin-top: 15px;
-}
-
-.content {
-    margin-top: 180px;
-}
-
 
 /* >650px styles */
+@media screen and (min-width: 650px) {
+    header nav ul li {
+        display: inline;
+    }
+    
+    header nav ul {
+        text-align: right;
+        margin: 38px 0;
+    }
+}
 
 /* >800px & <960px styles */
+@media screen and (min-width: 800px) {
+    body {
+        max-width: 1040px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    header {
+        max-width: 1040px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #pricing {
+        display: flex;
+    }
+
+    #princing div {
+        flex-basis: 200px;
+    }
+    
+}
