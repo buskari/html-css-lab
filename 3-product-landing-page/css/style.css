@@ -92,6 +92,8 @@ nav ul li a{
 
 #how-it-works {
     text-align: center;
+    margin: 0 auto;
+    max-width: 560px;
 }
 
 #how-it-works iframe {
@@ -171,7 +173,7 @@ footer .copyright {
     #features {
         display: block;
         width: 100%;
-        max-width: 599px;
+        max-width: 960px;
         margin: 0 auto;
         text-align: left;
     }
@@ -195,6 +197,18 @@ footer .copyright {
 }
 
 /* >600px styles */
+.logo img {
+    float: left;
+}
+
+header nav {
+    margin-top: 15px;
+}
+
+.content {
+    margin-top: 180px;
+}
+
 
 /* >650px styles */
 
