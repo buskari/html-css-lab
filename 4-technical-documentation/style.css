@@ -87,6 +87,8 @@ main #fourteenth ul {
         position: fixed;
         overflow: hidden;
         width: 300px;
+        height: 100%;
+        border-right: 3px solid #999;
     }
 
     header h1 {
@@ -110,11 +112,9 @@ main #fourteenth ul {
     }
 
     main {
-        position: absolute;
-        width: 85%;
-        left: 300px;
+        margin-left: 300px;
         width: 650px;
-        flex: 1 1 0;
+        flex-grow: 1;
     }
 
     main h2 {
