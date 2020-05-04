@@ -1,7 +1,134 @@
 * {
     margin: 0;
     padding: 0;
-    list-style-type: none;
     text-decoration: none;
     font-family: "Open Sans", Arial, sans-serif;
+}
+
+body {
+    min-width: 290px;
+}
+
+header {
+    width: 100%
+}
+
+header h1 {
+    text-align: center;
+    padding: 20px 0;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+section nav ul {
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    height: 250px;
+    overflow: auto;
+}
+
+section nav ul li {
+    padding: 15px 0 15px 30px;
+    border-bottom: 1px solid #444;
+
+}
+
+section nav ul li a {
+    color: #000;
+    font-weight: 500;
+}
+
+main {
+    width: 100%;
+}
+
+main h2 {
+    margin: 15px 0 15px 30px;
+    font-weight: 600;
+}
+
+main p, li {
+    line-height: 1.5em;
+}
+
+main p {
+    margin: 20px 40px 20px 40px;
+}
+
+main ul {
+    margin: 20px 40px 20px 100px;
+}
+
+main li {
+    margin: 15px 0;
+}
+
+main span {
+    display: block;
+    background: #eee;
+    width: 80%;
+    margin: 15px auto;
+    padding: 15px;
+    font-family: monospace;
+    font-weight: 400;
+}
+
+main #fourteenth ul {
+    margin: 200px;
+}
+
+/* >=815px styles */
+@media screen and (min-width: 815px) {
+    body {
+        display: flex;
+    }
+
+    header {
+        position: fixed;
+        overflow: hidden;
+        width: 300px;
+        height: 100%;
+        border-right: 3px solid #999;
+    }
+
+    header h1 {
+        text-align: left;
+        padding-left: 30px;
+    }
+
+    section nav ul {
+        overflow: initial;
+        width: 300px;
+        height: 100%;
+        border: 0px;
+    }
+
+    section nav ul:first-child {
+        border-top: 1px solid #444;
+    }
+
+    section nav ul li:last-child {
+        border: 0;
+    }
+
+    main {
+        margin-left: 300px;
+        width: 650px;
+        flex-grow: 1;
+    }
+
+    main h2 {
+        margin-top: 30px;
+        margin-left: 50px;  
+    }
+
+    main p {
+        margin-left: 80px;
+    }
+
+    main ul {
+        margin-left: 150px;
+    }
+
+
 }
